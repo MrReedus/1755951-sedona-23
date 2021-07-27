@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
 * Студент: [Евгений Никонов](https://up.htmlacademy.ru/adaptive/23/user/1755951).
-* Наставник: [Никита Коноплин](https://htmlacademy.ru/profile/id61645).
+* Наставник: [Павел Белобородов](https://htmlacademy.ru/profile/id466909).
 
 ---
 
