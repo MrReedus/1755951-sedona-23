@@ -1,0 +1,60 @@
+.visit {
+}
+.visit__wrapper {
+}
+
+.visit__title {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0px 30px;
+  margin-top: 0px;
+}
+
+.visit__subtitle {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0px 30px;
+  width:261px;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:280px;
+  height: 58px;
+  background-color: $color-menu;
+  text-decoration: none;
+  color:$basic-white;
+  margin: 0px 20px;
+  margin-bottom: 49px;
+  transition: 0.2s;
+  &:hover, &:focus {
+    background-color: $button-hover;
+  }
+
+  &:active {
+    background-color: $button-active;
+  }
+
+  &:active .button__text {
+    opacity: 0.3;
+  }
+
+  &:disabled {
+    background-color: $button-disabled;
+  }
+}
+
+.visit__map {
+}

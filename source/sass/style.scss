@@ -1,1 +1,35 @@
 // Начните писать стили здесь
+
+//FONTS
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+//VARIABLES
+
+@import "variables.scss";
+
+//BLOCKS
+//main page
+@import "blocks/header.scss";
+@import "blocks/intro.scss";
+@import "blocks/reasons.scss";
+@import "blocks/visit.scss";
+@import "blocks/page-footer.scss";
+
+//catalog
+@import "blocks/posts.scss";
+@import "blocks/intro-catalog.scss";
+
+//form
+@import "blocks/form.scss";
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-style: normal;
+  min-width: 320px;
+}

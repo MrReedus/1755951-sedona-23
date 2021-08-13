@@ -1,0 +1,76 @@
+.social__hashtag {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  display: block;
+  width: 166px;
+  margin: 28.5px 77px 33.5px 77px;
+}
+
+.social__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 84px;
+  margin-right: 85px;
+  flex-wrap: wrap;
+  margin-bottom: 45px;
+}
+
+.social__item {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+    &:not(:last-child) {
+      margin-right: 6px;
+    }
+}
+
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s;
+  width:46px;
+  height:48px;
+  background-color: $color-menu;
+    &:hover,&:focus {
+      background-color: $button-hover;
+  }
+    &:active{
+      background-color:$button-active;
+    }
+    &:active .social__icon {
+      opacity: 0.3;
+    }
+}
+
+.social__icon {
+  fill: $basic-white;
+}
+
+.copyright__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  position: relative;
+  margin: 0 0 26px 97px; //пересчитать отступ позднее
+}
+
+.copyright__logo {
+  position: absolute;
+  right: 95px;
+  top:-5px;
+  transition: 0.1s;
+  fill: $basic-black;
+    &:hover,&:focus {
+      fill: $color-menu;
+    }
+    &:active {
+      fill: $basic-black;
+      opacity: 0.3;
+    }
+}

@@ -1,0 +1,19 @@
+.page-main {
+
+}
+
+.intro {
+  position: relative;
+  height: 389px;
+  background-image: url("../../img/background-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: $basic-white;
+  margin-bottom: 32px;
+}
+
+.intro__image {
+  position: absolute;
+  top: 62px;
+  left: 20px;
+}

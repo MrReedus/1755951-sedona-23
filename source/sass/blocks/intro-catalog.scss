@@ -1,0 +1,15 @@
+.intro-catalog, .intro-form {
+  position: relative;
+  height: 158px;
+  background-image: url("../../img/catalog-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-color: $basic-white;
+  margin-bottom: 31px;
+}
+
+.intro-catalog__image, .intro-form__image {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
